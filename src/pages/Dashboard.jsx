@@ -25,7 +25,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchCandidateData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/user/candidate');
+        const response = await axios.get('https://tadbackend.onrender.com/user/candidate');
         setCandidateData(response.data);
       } catch (err) {
         console.error('Error fetching candidate data:', err);
@@ -36,7 +36,7 @@ const Dashboard = () => {
 
   const handleLogout = async () => {
     try {
-      const response = await axios.post("http://localhost:5000/user/logout", {}, { withCredentials: true });
+      const response = await axios.post("https://tadbackend.onrender.com/user/logout", {}, { withCredentials: true });
       if (response.status === 200) {
         console.log("Logout successful");
         // Redirect or update UI after successful logout

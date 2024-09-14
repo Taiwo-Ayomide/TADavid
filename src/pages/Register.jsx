@@ -25,7 +25,7 @@ const Register = () => {
       const user = { email, password }
 
       if (email && password) {
-        axios.post('http://localhost:5000/user/signup', user)
+        axios.post('https://tadbackend.onrender.com/user/signup', user)
         navigate('/mailConfirm')
       }
     } catch (error) {

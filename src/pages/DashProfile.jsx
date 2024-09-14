@@ -9,7 +9,7 @@ const DashProfile = () => {
     // Fetch user profile data based on session
     const fetchUserData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/user/candidate'); // API to get user data from session
+        const response = await axios.get('https://tadbackend.onrender.com/user/candidate'); // API to get user data from session
         setUserData(response.data); // Assuming response.data contains the user profile info
       } catch (err) {
         console.error('Error fetching user data:', err);

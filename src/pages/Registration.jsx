@@ -24,7 +24,7 @@ const Register = () => {
       const user = { firstname, lastname, age, gender, religion, phone, state }
 
       if (firstname && lastname && age && gender && religion && phone && state) {
-        axios.put(`http://localhost:5000/user/update/${id}`, user)
+        axios.put(`https://tadbackend.onrender.com/user/update/${id}`, user)
         navigate(`/uploadPassport/${id}`)
       }
     } catch (error) {
