@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -88,9 +88,9 @@ export default function Footer() {
               THINK AND DESIGN
             </h6>
             <p className='text-gray-400'>
-              ConnectPro Apps Limited is an IT firm that develops and
-              deploys Technology platforms and solutions that make life
-              easier, and work smarter.
+              A specialist institution whose mission is to
+              equip creative minds with graphic design abilities
+              that are relevant to the industry.
             </p>
           </div>
           {/* <!-- Products section --> */}
@@ -101,19 +101,19 @@ export default function Footer() {
             </h6>
             <p className="mb-4">
               <a className="text-neutral-600 dark:text-neutral-200"
-              >LiveKick</a>
+              >September Cohort</a>
             </p>
             <p className="mb-4">
               <a className="text-neutral-600 dark:text-neutral-200"
-              >LiveAccess</a>
+              >December Cohort</a>
             </p>
               <p className="mb-4">
                 <a className="text-neutral-600 dark:text-neutral-200"
-                >Titos Corner</a>
+                >April Cohort</a>
               </p>
             <p className="mb-4">
               <a className="text-neutral-600 dark:text-neutral-200"
-              >Titos Corner</a>
+              >July Cohort</a>
             </p>
           </div>
           {/* <!-- Useful links section --> */}
@@ -122,22 +122,30 @@ export default function Footer() {
               className="mb-4 flex justify-center font-semibold uppercase md:justify-start text-yellow-400">
               Useful links
             </h6>
+              <Link to="/">
               <p className="mb-4">
                 <a className="text-neutral-600 dark:text-neutral-200"
                 >Home</a>
               </p>
+              </Link>
+              <Link to="/login">
               <p className="mb-4">
                 <a className="text-neutral-600 dark:text-neutral-200"
                 >Student Login</a>
               </p>
-            <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200"
-              >Apply</a>
-            </p>
+              </Link>
+              <Link to="/register">
+              <p className="mb-4">
+                <a className="text-neutral-600 dark:text-neutral-200"
+                >Apply</a>
+              </p>
+              </Link>
+              <Link to="/contact">
               <p>
                 <a className="text-neutral-600 dark:text-neutral-200"
                 >Contact Us</a>
               </p>
+              </Link>
           </div>
           {/* <!-- Contact section --> */}
           <div>

@@ -37,7 +37,7 @@ import {
   const testimonials = [
     {
       title:
-        "Coming to my first Graphic class, I came with a mind of let's see how it goes. It wasn't up to a week before I started thanking God that I did not missed this class.",
+        "Coming to my first Graphic class, I came with a mind of let's see how it goes. It wasn't up to a week before I started thanking God that I did not miss this class.",
       client: "Ganiyu Testimony",
       clientInfo: "Alumni",
       img: "testimony.jpeg",
@@ -51,7 +51,7 @@ import {
     },
     {
       title:
-        "A vision that turns strangers to family. It is suchan awesome experience learning at Think and Design",
+        "A vision that turns strangers to family. It is such an awesome experience learning at Think and Design",
       client: "Joshua Majaro",
       clientInfo: "Alumni",
       img: "joshua.jpeg",
@@ -97,7 +97,7 @@ import {
                 color="black"
                 className="mb-4 !text-2xl lg:!text-3xl max-w-4xl !leading-snug mx-auto font-bold"
               >
-                &quot;I joined TAD at a time when everything wasn't making sense. My initial intenstion was to learn, but I ended up forming bonds with many amazing people. Even those the class is over, the bond we have created will always be cherished!&quot;
+                &quot;I joined TAD at a time when everything wasn't making sense. My initial intention was to learn, but I ended up forming bonds with many amazing people. Even though the class is over, the bond we have created will always be cherished!&quot;
               </Typography>
             </CardHeader>
             <CardBody className="items-center mx-auto py-2">

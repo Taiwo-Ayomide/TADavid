@@ -4,7 +4,7 @@ import ProfileCard from '../components/ProfileCard'
 const DashHome = () => {
   return (
     <div>
-        <ProfileCard/>
+      <ProfileCard/>
     </div>
   )
 }
