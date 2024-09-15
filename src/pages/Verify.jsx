@@ -32,12 +32,12 @@ const Verify = () => {
     return (
         <div className="verification-page">
             {loading ? (
-                <div className="text-center">
-                    <p className="text-xl text-blue-900">Verifying your account...</p>
+                <div className="text-center mt-96">
+                    <p className="text-3xl text-blue-900">Verifying your account...</p>
                 </div>
             ) : (
-                <div className="text-center">
-                    <p className="text-xl text-blue-900">{message}</p>
+                <div className="text-center mt-96">
+                    <p className="text-3xl text-blue-900">{message}</p>
                 </div>
             )}
         </div>
