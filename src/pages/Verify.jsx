@@ -12,7 +12,7 @@ const Verify = () => {
         // Function to verify token
         const verifyToken = async () => {
             try {
-                const response = await axios.get(`https://tadbackend.onrender.com/user/verify/${id}/${token}`); // Call backend route
+                const response = await axios.get(`https://tadbackend.onrender.com/api/user/verify/${id}/${token}`); // Call backend route
                 setMessage(response.data.message);
                 setLoading(false);
 

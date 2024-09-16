@@ -27,7 +27,7 @@ const UploadPassport = () => {
 
     try {
       const response = await axios.put(
-        `https://tadbackend.onrender.com/user/passport/${id}`,
+        `https://tadbackend.onrender.com/api/user/passport/${id}`,
         data,
         { headers: { 'Content-Type': 'multipart/form-data' } }
       );
